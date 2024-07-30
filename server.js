@@ -20,6 +20,7 @@ app.get('/api/profile/:username', async (req, res) => {
 });
 
 app.listen(PORT, () => {
+    console.log('Server is starting......');
     console.log('Server has started');
     console.log(`Server is running on http://localhost:${PORT}`);
 });
